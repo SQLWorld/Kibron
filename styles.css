@@ -1,0 +1,74 @@
+header{
+    background-color: black;
+    position: relative;
+    width: 100%;
+}
+
+.banner h2{
+    color: rgb(199, 122, 206);
+    padding: 4px 6px;
+    font-size: 36px;
+    text-align: center;
+}
+
+ul {
+font-size: 18px;
+text-align: center;
+}
+
+p{
+    line-height: 2em;
+    text-align: center;
+}
+
+.images img {
+max-width: 50%;
+position: relative;
+left: 10px;
+margin: 10px;
+}  
+
+footer{
+    background-color: black;
+    padding: 8px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: rgb(206, 102, 180);
+}
+
+footer a{
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.images img:hover{
+    max-width: 70%;
+    position: relative;
+    left: 30px;
+}
+
+@media screen and (min-width: 560px) {
+    .images img {
+        max-width: 20%;
+        margin: 0px 20px;
+        position: relative;
+        left: 30px;
+    }
+    .images img:hover{
+        max-width: 30%;
+    }
+
+    div .sister:hover{
+        max-width: 25%;
+    }
+
+} 
